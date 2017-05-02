@@ -4,7 +4,14 @@ import json
 import os
 from requests_oauthlib import OAuth1
 
-auth = OAuth1("7af419d2f32240239aa335e5b0795ae2", "178fb1a58c2645d1af9aed853b23ad0a")
+with open ("login.txt", "r") as myfile:
+    data = myfile.read().split()
+    myfile.close()
+print data
+key1 = data[0]
+key2 = data[1]
+
+auth = OAuth1(key1, key2)
 endpoint = "http://api.thenounproject.com/icon/1"
 
 #Download and save an image at the url
