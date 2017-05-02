@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="Fonts.css" type="text/css" title="sometext" alternate="no" media="screen"?>
+<svg baseProfile="full" height="10cm" version="1.1" viewBox="0,0,200,150" width="20cm" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><pattern height="20" id="id1" patternUnits="userSpaceOnUse" width="20"><circle cx="10" cy="10" r="5" /></pattern></defs><g class="myclass"><text x="10" y="30">fuck</text></g><circle cx="100" cy="100" fill="url(#id1) none" r="50" /><text x="40" y="50">fuck</text></svg>
